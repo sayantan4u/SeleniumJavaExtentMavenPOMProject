@@ -17,7 +17,7 @@ public class TestCase1 extends BaseTest {
     @Test
     //Run | Debug
     public void loginCredentials() {
-        logger.log(Status.INFO,"Login as valid user");
+        logger.log(Status.INFO,"Login as Valid User");
         loginPage.login("standard_user", "secret_sauce");
         logger.log(Status.INFO,"Verifying Logging is successful!");
         Assert.assertTrue(inventoryPage.verifyInventoryPageIsLoaded(), "Inventory Page is not Loaded!");
