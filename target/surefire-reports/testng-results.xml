@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T16:08:27 PDT" name="Suite" finished-at="2024-09-26T16:08:42 PDT" duration-ms="15104">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T16:08:27 PDT" name="Test" finished-at="2024-09-26T16:08:42 PDT" duration-ms="15104">
+      <class name="qa.tests.TestCase1">
+        <test-method is-config="true" signature="startExtentReport()[pri:0, instance:qa.tests.TestCase1@7fa98a66]" started-at="2024-09-26T16:08:27 PDT" name="startExtentReport" finished-at="2024-09-26T16:08:27 PDT" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.TestCase1@7fa98a66]" started-at="2024-09-26T16:08:27 PDT" name="beforeMethodMethod" finished-at="2024-09-26T16:08:34 PDT" duration-ms="6573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.TestCase1.addItemsToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="addItemsToCart()[pri:0, instance:qa.tests.TestCase1@7fa98a66]" started-at="2024-09-26T16:08:34 PDT" name="addItemsToCart" finished-at="2024-09-26T16:08:37 PDT" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToCart -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:qa.tests.TestCase1@7fa98a66]" started-at="2024-09-26T16:08:37 PDT" name="getResult" finished-at="2024-09-26T16:08:37 PDT" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsToCart status=SUCCESS method=TestCase1.addItemsToCart()[pri:0, instance:qa.tests.TestCase1@7fa98a66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.TestCase1@7fa98a66]" started-at="2024-09-26T16:08:37 PDT" name="beforeMethodMethod" finished-at="2024-09-26T16:08:39 PDT" duration-ms="1961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.TestCase1.loginCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="loginCredentials()[pri:0, instance:qa.tests.TestCase1@7fa98a66]" started-at="2024-09-26T16:08:39 PDT" name="loginCredentials" finished-at="2024-09-26T16:08:41 PDT" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCredentials -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:qa.tests.TestCase1@7fa98a66]" started-at="2024-09-26T16:08:41 PDT" name="getResult" finished-at="2024-09-26T16:08:41 PDT" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginCredentials status=SUCCESS method=TestCase1.loginCredentials()[pri:0, instance:qa.tests.TestCase1@7fa98a66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:qa.tests.TestCase1@7fa98a66]" started-at="2024-09-26T16:08:41 PDT" name="endReport" finished-at="2024-09-26T16:08:42 PDT" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- qa.tests.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
