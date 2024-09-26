@@ -10,7 +10,7 @@ import utils.ElementFetch;
 
 //Run All
 public class TestCase1 extends BaseTest {
-    ElementFetch ele = new ElementFetch();
+   // ElementFetch ele = new ElementFetch();
     LoginPageEvents loginPage = new LoginPageEvents();
     InventoryPageEvents inventoryPage = new InventoryPageEvents();
 
